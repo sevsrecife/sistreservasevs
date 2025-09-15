@@ -1,0 +1,30 @@
+.bg-orange {
+  background-color: #db6605 !important;
+}
+.btn-orange {
+  background-color: #db6605;
+  border-color: #db6605;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  word-wrap: break-word;
+}
+.btn-orange:hover {
+  background-color: #914303;
+  border-color: #914303;
+}
+
+/* Ajustes de responsividade */
+@media (max-width: 576px) {
+  h2 {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  .btn-lg {
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+}
